@@ -7,15 +7,13 @@ const inter = Inter({ subsets: ["latin"] });
 
 const Home = () => {
   return (
-    <div>
-      <df-messenger
-        df-cx="true"
-        location="us-central1"
-        chat-title="YOYO69000"
-        agent-id="9eb630a7-1f52-48fb-8dee-2ab3d79225eb"
-        language-code="en"
-      ></df-messenger>
-    </div>
+    <df-messenger
+      df-cx="true"
+      location="us-central1"
+      chat-title="MR_ROBOT"
+      agent-id="9eb630a7-1f52-48fb-8dee-2ab3d79225eb"
+      language-code="en"
+    ></df-messenger>
   );
 };
 
@@ -135,5 +133,3 @@ const Home = () => {
 //     </>
 //   )
 // }
-
-export default Home;
