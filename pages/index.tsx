@@ -22,6 +22,13 @@ const inter = Inter({ subsets: ["latin"] });
 const Home = () => {
   return (
     <div>
+      <Image
+        src="/yoyo_turtle.jpg"
+        alt="yoyo holding a turtle and smoking a cigarette"
+        // width={1000}
+        // height={1000}
+        fill
+      />
       <df-messenger
         df-cx="true"
         location="us-central1"
