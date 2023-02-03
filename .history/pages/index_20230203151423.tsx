@@ -10,9 +10,7 @@ declare global {
       "df-messenger": React.DetailedHTMLProps<
         React.HTMLAttributes<HTMLElement>,
         HTMLElement
-      > & {
-        location: string;
-      };
+      >;
     }
   }
 }
